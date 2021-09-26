@@ -35,10 +35,10 @@ public class BST
     public Character LCAof(char key1, char key2)
     {
         Node currentNode = this.root;
-        while(currentNode != null)
+        while (currentNode != null)
         {
-            if(currentNode.key > key1 && currentNode.key > key2) currentNode = currentNode.left;
-            else if(currentNode.key < key1 && currentNode.key < key2) currentNode = currentNode.right;
+            if (currentNode.key > key1 && currentNode.key > key2) currentNode = currentNode.left;
+            else if (currentNode.key < key1 && currentNode.key < key2) currentNode = currentNode.right;
             else return currentNode.key;
         }
         return null;
