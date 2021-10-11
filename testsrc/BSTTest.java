@@ -94,9 +94,6 @@ class BSTTest {
          *                  H
          */
 
-        // TEMP THIS IS NOT GOING TO BE HERE check correct tree was made
-        assertEquals("(((()A())E(()F()))G((((()H())J())K(()L()))N(()P(()Z()))))", tree.printKeysInOrder());
-
         // Test LCA where neither key is in the tree
         assertEquals(null, tree.LCAof('D', 'M'), "Test LCAof('D', 'M') on a tree that contains neither");
 
