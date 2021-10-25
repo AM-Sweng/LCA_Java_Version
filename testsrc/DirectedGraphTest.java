@@ -60,7 +60,7 @@ class DirectedGraphTest
         assertTrue(LCAs.contains(0), "Test that LCA of 4 and 0 produced the correct LCA 0");
 
         /*
-         * Tests for a graph with multiple subgraphs that are not connected to each other
+         * Tests for a graph with multiple subgraphs that are not connected to each other (Graph_2.png)
          */
         graph = new DirectedGraph(10);
 
